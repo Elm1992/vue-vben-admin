@@ -169,8 +169,8 @@ async function onBtnClick(value: ValueType) {
 
   &.no-gap {
     :deep(button + button) {
-      border-left-width: 1px;
       margin-right: -1px;
+      border-left-width: 1px;
     }
   }
 }
